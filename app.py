@@ -100,7 +100,7 @@ with col2:
     st.write('• Efficient Career Navigation')
 
 with col1:
-   img1 = Image.open(r"C:\Users\raina\OneDrive\Desktop\CareerCraft ATS Optimized Resume Analyzer using Gemini Model\images\icon2.png")
+   img1 = Image.open(r"images/icon2.png")
 
    st.image(img1, use_column_width=True)
 
@@ -123,7 +123,7 @@ with col1:
             st.subheader(response)
 
 with col2:
-    img2 = Image.open(r"C:\Users\raina\OneDrive\Desktop\CareerCraft ATS Optimized Resume Analyzer using Gemini Model\images\icon3.png")
+    img2 = Image.open(r"images\icon3.png")
 
     st.image(img2, use_column_width=True)
 
@@ -148,7 +148,7 @@ with col2:
     st.write("""**Answer:** Absolutely! CareerCraft caters to job seekers at all career stages, offering tailored insights and guidance to enhance their resumes and advance their careers.""")
 
 with col1:
-    img3 = Image.open(r"C:\Users\raina\OneDrive\Desktop\CareerCraft ATS Optimized Resume Analyzer using Gemini Model\images\icon4.png")
+    img3 = Image.open(r"images\icon4.png")
 
 
     st.image(img3, use_column_width=True)
