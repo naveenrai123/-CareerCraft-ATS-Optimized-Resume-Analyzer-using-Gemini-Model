@@ -9,8 +9,8 @@ import requests
 import json
 
 load_dotenv()
-api_key = os.getenv("GOOGLE_API_KEY")
-print(api_key)
+
+
                             
 
 def get_gemini_response(input_prompt):
