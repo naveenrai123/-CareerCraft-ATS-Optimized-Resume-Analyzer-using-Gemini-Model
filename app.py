@@ -10,7 +10,7 @@ import json
 
 load_dotenv()
 
-api_key = os.getenv("GOOGLE_API_KEY")
+api_key = st.secrets["api_keys"]["google"]
                             
 
 def get_gemini_response(input_prompt):
