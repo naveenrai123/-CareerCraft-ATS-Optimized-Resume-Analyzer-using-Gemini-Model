@@ -102,7 +102,7 @@ with col2:
 with col1:
    img1 = Image.open(r"images/icon2.png")
 
-   st.image(img1, use_column_width=True)
+   st.image(img1, use_container_width=True)
 
 avs.add_vertical_space(10)
 
@@ -125,7 +125,7 @@ with col1:
 with col2:
     img2 = Image.open(r"images/icon3.png")
 
-    st.image(img2, use_column_width=True)
+    st.image(img2, use_container_width=True)
 
 avs.add_vertical_space(10)
 
@@ -151,4 +151,4 @@ with col1:
     img3 = Image.open(r"images/icon4.png")
 
 
-    st.image(img3, use_column_width=True)
+    st.image(img3, use_container_width=True)
